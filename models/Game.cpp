@@ -63,21 +63,3 @@ void Game::generateMisteryColours(){
 void Game::clear(){
     this->turn=0;
 }
-
-void Game::setTurn(int turn) {
-    this->turn = turn;
-}
-
-void Game::setProposedCombination(ProposedCombination **proposedCombination){
-    assert(proposedCombination!= nullptr);
-    this->proposedCombination = proposedCombination;
-}
-
-void Game::setSecretCombination(SecretCombination *secretCombination){
-    assert(secretCombination!= nullptr);
-    this->secretCombination = secretCombination;
-}
-
-SecretCombination* Game::getSecretCombinationObject() {
-    return this->secretCombination;
-}

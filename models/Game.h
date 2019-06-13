@@ -13,7 +13,6 @@ public:
     State getState();
     void setState(State state);
     void read(char *combination);
-    void setTurn(int turn);
     int getTurn();
     bool isWinner();
     ProposedCombination **getProposedCombination();
@@ -22,9 +21,6 @@ public:
     void calculateResult();
     void generateMisteryColours();
     void clear();
-    void setProposedCombination(ProposedCombination **proposedCombination);
-    void setSecretCombination(SecretCombination *secretCombination);
-    SecretCombination *getSecretCombinationObject();
 
 private:
     const static int MAX_PROPOSED_COMBINATION = 10;
