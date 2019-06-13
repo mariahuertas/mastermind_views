@@ -32,11 +32,9 @@ add_executable(mastermindViews
         models/Result.h
         models/SecretCombination.cpp
         models/SecretCombination.h
-        views/ColocateView.cpp
-        views/ColocateView.h
         views/ContinueView.cpp
         views/ContinueView.h
-        views/ControllerVisitor.h
+        controllers/ControllerVisitor.h
         views/GameView.cpp
         views/GameView.h
         views/MastermindView.cpp
